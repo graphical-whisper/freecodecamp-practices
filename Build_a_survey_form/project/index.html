@@ -17,24 +17,66 @@
         </div>
     <div class="form-divs">
         <label>Email</label>
-        <input>
+        <input type="email" name="email" class="basic-form">
         <div class="form-divs">
             <label id="age-label">Age</label>
             <input type="number" name="age" id ="number" class="basic-form" placeholder="Enter your age" min="10" max="102">
         </div>
     </div>
     <div class="form-divs">
-        <label>How often do you play *****?</label>
-        <input>
+        <p>How long you play The End of Tales every week?</p>
+        <select id="weekly-hours" name="weekly-hours" class="basic-form" required>
+            <option disabled selected>
+                Select one
+            </option>
+            <option>
+                less than 3h
+            </option>
+            <option>
+                3h-6h 
+            </option>
+            <option>
+6-12h
+            </option>
+            <option>
+more than 12h
+            </option>
+        </select>
     </div>
     <div class="form-divs">
-        <label>Which one of our latest events did u enjoy the most?</label>
-        <input>
+        <p>Which one of our latest events did u enjoy the most?</p>
+        <label>
+            <input name="events" value="event 1" type="radio"class="input-radio" checked>Event 1
+        </label>
+        <label>
+            <input name="events" value="event 2" type="radio" class="input-radio" > Event 2
+        </label>
+        <label>
+            <input name="events" value="event 3" type="radio" class="input-radio" > Event 3
+        </label>
+        <label>
+            <input name="events" value="none" type="radio" class="input-radio" > None of them
+        </label>
     </div>
     <div class="form-divs">
-        <label>Which fate are you supporting?</label>
-        <input>
+        <p>Which faction feels overpowered? <span>(Select all that apply)</span></p>
+        <label>
+            <input name="factions" value="faction" type="checkbox" class=""> 
+        </label>
+        <label>
+            <input name="factions" value="faction" type="checkbox" class=""> 
+        </label>
+        <label>
+            <input name="factions" value="faction" type="checkbox" class=""> 
+        </label>
+        <label>
+            <input name="factions" value="faction" type="checkbox" class=""> 
+        </label>
+        <label>
+            <input name="factions" value="faction" type="checkbox" class=""> 
+        </label>
     </div>
+    
     
 </form>
  </div>   
