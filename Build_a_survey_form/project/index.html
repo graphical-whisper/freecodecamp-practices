@@ -46,37 +46,47 @@ more than 12h
     <div class="form-divs">
         <p>Which one of our latest events did u enjoy the most?</p>
         <label>
-            <input name="events" value="event 1" type="radio"class="input-radio" checked>Event 1
+            <input name="events" value="event 1" type="radio"class="input-radio" checked>Event 1 <br/>
         </label>
         <label>
-            <input name="events" value="event 2" type="radio" class="input-radio" > Event 2
+            <input name="events" value="event 2" type="radio" class="input-radio" > Event 2 <br/>
         </label>
         <label>
-            <input name="events" value="event 3" type="radio" class="input-radio" > Event 3
+            <input name="events" value="event 3" type="radio" class="input-radio" > Event 3 <br/>
         </label>
         <label>
-            <input name="events" value="none" type="radio" class="input-radio" > None of them
+            <input name="events" value="none" type="radio" class="input-radio" > None of them <br/>
         </label>
     </div>
     <div class="form-divs">
-        <p>Which faction feels overpowered? <span>(Select all that apply)</span></p>
+        <p>Which faction feels overpowered? <span>(Check all that apply)</span></p>
         <label>
-            <input name="factions" value="faction" type="checkbox" class=""> 
+            <input name="factions" value="faction 1" type="checkbox" class="input-checkbox"> Faction 1<br/>
         </label>
         <label>
-            <input name="factions" value="faction" type="checkbox" class=""> 
+            <input name="factions" value="faction 2" type="checkbox" class="input-checkbox"> Faction 2<br/>
         </label>
         <label>
-            <input name="factions" value="faction" type="checkbox" class=""> 
+            <input name="factions" value="faction 3" type="checkbox" class="input-checkbox"> Faction 3<br/>
         </label>
         <label>
-            <input name="factions" value="faction" type="checkbox" class=""> 
+            <input name="factions" value="faction 4" type="checkbox" class="input-checkbox"> Faction 4<br/>
         </label>
         <label>
-            <input name="factions" value="faction" type="checkbox" class=""> 
+            <input name="factions" value="faction 5" type="checkbox" class="input-checkbox"> Faction 5<br/>
+        </label>
+        <label>
+            <input type="checkbox" onclic="check(this)" >Check all <br/>
         </label>
     </div>
-    
+    <div class="form-divs">
+        <p>What would you like to be improved?</p>
+        <textarea id="suggestions" class="input-textarea" name="suggestions" placeholder="Enter your suggestions here..."
+        ></textarea>
+    </div>
+    <div class="form-divs">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
     
 </form>
  </div>   
