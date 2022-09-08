@@ -14,24 +14,24 @@
  <div>
     <header>
     <h1 id="title">End of T</h1>
-<p>Thanks for completing our survey</p>
+<p id="description">Thanks for completing our survey</p>
     </header>
-    <form action="">
+    <form id="survey-form"action="">
         <div class="form-divs">
-            <label id="username-label">Username<br/></label>
-            <input type="text" name="username" class="basic-form" placeholder="Enter your username">
+            <label id="name-label">Username<br/></label>
+            <input required id="name" type="text" name="username" class="basic-form" placeholder="Enter your username">
         </div>
     <div class="form-divs">
-        <label>Email<br/></label>
-        <input type="email" name="email" class="basic-form">
+        <label id="email-label">Email<br/></label>
+        <input required id="email" type="email" name="email" class="basic-form" placeholder="Enter your email">
         <div class="form-divs">
-            <label id="age-label">Age<br/></label>
+            <label id="number-label">Age<br/></label>
             <input type="number" name="age" id ="number" class="basic-form" placeholder="Enter your age" min="10" max="102">
         </div>
     </div>
     <div class="form-divs">
         <p>How long you play The End of Tales every week?<br/></p>
-        <select id="weekly-hours" name="weekly-hours" class="basic-form" required>
+        <select id="dropdown" name="weekly-hours" class="basic-form" required>
             <option disabled selected>
                 Select one
             </option>
